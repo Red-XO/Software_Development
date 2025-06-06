@@ -7,7 +7,7 @@ public static void main(String args[]) {
 	        int[] arr = {12, 3, 45, 7, 18, 8};
 	        min=arr[0];
 	        max=arr[0];
-	       for(int i=0;i<arr.length-1;i++) {
+	       for(int i=0;i<arr.length;i++) {
 	    	   if(arr[i]<min) {
 	    		   min = arr[i];
 	    	   }
