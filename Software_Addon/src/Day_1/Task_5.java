@@ -1,5 +1,4 @@
 package Day_1;
-import java.util.Scanner;
 public class Task_5 {
 	public static int fact(int num) {
 		if(num==0) {
