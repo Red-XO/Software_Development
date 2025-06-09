@@ -75,7 +75,7 @@ public class Task_8 {
 	                    break;
 
 	                case 5:
-	                    System.out.println("Varta mame durr");
+	                    System.out.println("Varta mame durr ");
 	                    sc.close();
 	                    return;
 
