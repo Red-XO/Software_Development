@@ -1,7 +1,6 @@
 package Day_2;
 
 import java.util.Scanner;
-import java.util.Arrays;
 public class Task_3 {
 
 	public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Task_3 {
 				System.out.println("Not A palindrome");
 			}
 		}
-		
+		sc.close();
 	}
 
 }
