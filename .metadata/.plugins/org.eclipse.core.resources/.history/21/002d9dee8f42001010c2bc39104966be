@@ -1,0 +1,21 @@
+package Day_1;
+
+public class Task_4 {
+public static void main(String args[]) {
+	        int[] arr = {12, 3, 45, 7, 19, 8};
+	        int min = 0;
+	        int max = 0;
+
+	        for (int num : arr) {
+	            if (num < min) {
+	                min = num;
+	            }
+	            if (num > max) {
+	                max = num;
+	            }
+	        }
+
+	        System.out.println("Minimum element: " + min);
+	        System.out.println("Maximum element: " + max);
+}
+}

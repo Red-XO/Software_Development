@@ -1,0 +1,21 @@
+package Day_2;
+
+public class Task_1 {
+
+	public static void main(String[] args) {
+	int arr[]= {4,2,10,7,5,3,8};
+	int start=arr[0];
+	int end = arr[arr.length-1];
+	System.out.println(end);
+	for(int i=0;i<arr.length-1;i++) {
+			if(arr[i+1]<start) {
+				arr[0]=start;
+			}
+				arr[arr.length-1]=end;
+			}
+	for(int a=0;a<arr.length-1;a++) {
+		System.out.println(arr[a]);
+	}
+	}
+
+}

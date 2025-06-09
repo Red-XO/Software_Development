@@ -1,0 +1,13 @@
+package Day_1;
+
+public class Task_6 {
+	public static int fibo(int a,int b) {
+		if(a==0&&b==0) {
+			return 0;
+		}
+		return a+b+(a+b);
+	}
+public static void main(String args[]) {
+	System.out.println(fibo(0,1));
+}
+}
