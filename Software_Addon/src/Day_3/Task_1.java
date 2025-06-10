@@ -9,7 +9,7 @@ package Day_3;
 	}
 	class SinglyLinkedList {
 		Node head;
-		 public void insert(int data) {
+		 public void add(int data) {
 		        Node newNode = new Node(data);
 		        if (head == null) {
 		            head = newNode;
@@ -33,9 +33,9 @@ package Day_3;
 	public class Task_1 {
 	 public static void main(String[] args) {
 	        SinglyLinkedList list = new SinglyLinkedList();
-	        list.insert(10);
-	        list.insert(20);
-	        list.insert(30);
+	        list.add(10);
+	        list.add(20);
+	        list.add(30);
 	        list.traverse(); 
 	        }
 	}
