@@ -1,5 +1,5 @@
 package Day_3;
-class Node {
+class Node{
 		int data;
 	    Node next;
 	    Node prev;
@@ -17,11 +17,11 @@ class Node {
 		            head = newNode;
 		        } else {
 		            Node temp = head;
+		            temp.next = newNode;
 		            while (temp.next != null) {
 		                temp = temp.next;
 		            }
-		            temp.next = newNode;
-		        }
+		            }
 		 }
 		 public void traverse() {
 		        Node temp = head;
