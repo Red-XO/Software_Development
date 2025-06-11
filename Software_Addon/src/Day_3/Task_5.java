@@ -74,31 +74,26 @@ public class Task_5 {
 	System.out.println("1.Add Element");
 	System.out.println("2.Insert Element");
 	System.out.println("3.Delete Element");
-	System.out.println("Enter the position:");
-	int e = sc.nextInt();
 	System.out.println("4.Display List");
 	System.out.println("5.Exit");
 	System.out.println("Enter Your Choice:");
 	int a = sc.nextInt();
-	while(true) {
 	switch(a){
 	case 1:
-		if(a==1) {
-			System.out.println("Enter the number:");
-			int b = sc.nextInt();
-			ts.add(b);
-		}
+		System.out.println("Enter the number:");
+		int b = sc.nextInt();
+		ts.add(b);
 		break;
 	case 2:
-		if(a==2) {
-			System.out.println("Enter the Number");
-			int c = sc.nextInt();
-			System.out.println("Enter the Position");
-			int d = sc.nextInt();
-			ts.insertAtPosition(c, d);
-		}
+		System.out.println("Enter the Number");
+		int c = sc.nextInt();
+		System.out.println("Enter the Position");
+		int d = sc.nextInt();
+		ts.insertAtPosition(c, d);
 		break;
 	case 3:
+		System.out.println("Enter the Position");
+		int e = sc.nextInt();
 		ts.deleteAtPosition(e);
 		break;
 	case 4:
@@ -111,7 +106,6 @@ public class Task_5 {
 	default:
 		System.out.println("Invalid Choice");
 		break;
-	}
 	}
 	}
 }
