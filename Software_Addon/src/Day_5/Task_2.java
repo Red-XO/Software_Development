@@ -1,7 +1,4 @@
 package Day_5;
-
-import Day_5.Task_1.Node;
-
 public class Task_2 {
 	class Node
 	{

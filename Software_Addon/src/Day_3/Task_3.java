@@ -54,7 +54,6 @@ public static void main(String args[]) {
 	ts.add(60);
 	ts.deleteAtPosition(2);
 	ts.deleteAtPosition(1);
-	ts.deleteAtPosition(3);
 	ts.printList();
 }
 }

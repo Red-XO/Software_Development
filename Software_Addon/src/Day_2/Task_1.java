@@ -1,9 +1,6 @@
 package Day_2;
-
 import java.util.Arrays;
-
 public class Task_1 {
-
 	public static void main(String[] args) {
 		int arr[]= {4,2,10,7,5,3,8};
 		for(int i=0;i<arr.length;i++) {
@@ -16,7 +13,5 @@ public class Task_1 {
 			}
 		}
 		System.out.println(Arrays.toString(arr));
-	
 	}
-
 }
