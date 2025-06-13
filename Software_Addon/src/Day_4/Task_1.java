@@ -11,7 +11,6 @@ class Node{
 }
 public class Task_1 {
 Node head;
-//Method to add a node at the beginning
 public void add(int data) {
     Node newNode = new Node(data);
     if (head == null) {
