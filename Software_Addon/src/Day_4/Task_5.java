@@ -60,37 +60,38 @@ public class Task_5 {
 	System.out.println("3.Delete Element");
 	System.out.println("4.Display List");
 	System.out.println("5.Exit");
-	System.out.println("Enter Your Choice:");
-	int a = sc.nextInt();
-	switch(a) {
-	case 1:
-		System.out.println("Enter the number:");
-		int b = sc.nextInt();
-		ts.add(b);
-		break;
-	case 2:
-		System.out.println("Enter the Number");
-		int c = sc.nextInt();
-		System.out.println("Enter the Position");
-		int d = sc.nextInt();
-		ts.insert(c, d);
-		break;
-	case 3:
-		System.out.println("Enter the Position");
-		int e = sc.nextInt();
-		ts.delete(e);
-		break;
-	case 4:
-		ts.display();
-		break;
-	case 5:
-		sc.close();
-		System.exit(0);
-		break;
-	default:
-		System.out.println("Invalid Choice");
-		break;
+	while(true) {
+		System.out.println("Enter Your Choice:");
+		int a = sc.nextInt();
+		switch(a) {
+			case 1:
+				System.out.println("Enter the number:");
+				int b = sc.nextInt();
+				ts.add(b);
+				break;
+			case 2:
+				System.out.println("Enter the Number");
+				int c = sc.nextInt();
+				System.out.println("Enter the Position");
+				int d = sc.nextInt();
+				ts.insert(c, d);
+				break;
+			case 3:
+				System.out.println("Enter the Position");
+				int e = sc.nextInt();
+				ts.delete(e);
+				break;
+			case 4:
+				ts.display();
+				break;
+			case 5:
+				sc.close();
+				System.exit(0);
+				break;
+			default:
+				System.out.println("Invalid Choice");
+				break;
+				}
+		}
 	}
-	}
-
 }
