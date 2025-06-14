@@ -12,11 +12,7 @@ public class Tas_2 {
 			System.out.println(Arrays.toString(arr));
 			System.out.println("Value "+arr[mid]+ " found at "+mid);
 			return;
-		}
-		else if(low>high){
-			System.out.println("Value is not stored in the array");
-		}
-		else {
+		}else {
 		if(num<arr[mid]) {
 			high--;
 			finder(num);
@@ -25,6 +21,9 @@ public class Tas_2 {
 			low++;
 			finder(num);
 			}
+		}
+		if(low>high) {
+			System.out.println("Value is not stored in the array");
 		}
 		}
 	public static void main(String[] args) {
