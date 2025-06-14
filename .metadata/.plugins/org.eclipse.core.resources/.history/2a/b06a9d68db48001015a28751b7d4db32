@@ -1,0 +1,4 @@
+package Day_8;
+public class Tas_2 {
+	int arr[] = {13,57,35,51,21,63,36,37};
+}
