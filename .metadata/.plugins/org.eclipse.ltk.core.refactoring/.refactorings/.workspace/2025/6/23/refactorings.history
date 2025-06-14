@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;SD_Addon&apos;" deleteContents="false" description="Delete resource &apos;SD_Addon&apos;" element1="/SD_Addon" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1749104079156"/>
-</session>
