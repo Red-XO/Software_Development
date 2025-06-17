@@ -1,7 +1,4 @@
 package Day_5;
-
-import Day_5.Circular_List.Node;
-
 public class DeletionAtNode {
 	class Node {
 	    int data;
