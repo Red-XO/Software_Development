@@ -1,0 +1,23 @@
+create database demo;
+use demo;
+CREATE TABLE Stud(
+    NAME VARCHAR(50),
+    mark int,
+    department VARCHAR(15),
+    section char
+);
+INSERT INTO Student (NAME, mark, section) VALUES
+("Red",100,"B"),
+("Black",70,"A"),
+("Strange",60,"A"),
+("Green",50,"C"),
+("Grey",40,"A");
+select * from stud;
+
+OUTPUT:
+Name            Mark     Section
+Red	            100		    B
+Black    	    70	    	A
+Strange     	60	    	A
+Green	        50	    	C
+Grey	        40	        A
